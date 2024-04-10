@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+
+  border-radius: 45px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  border-color: #E2E2E2;
+  column-gap: 24px;
+  padding:0px 24px;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+.link {
+  color: #27272a;
+}
+
+.link:hover {
+color:#14B8A6;
+}
+
+.link:active {
+  color: #38bdf8;
+  text-decoration: none;
+}

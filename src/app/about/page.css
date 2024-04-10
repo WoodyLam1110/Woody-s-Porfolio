@@ -1,0 +1,22 @@
+.heading {
+  text-align: center; /* Keeps text aligned center */
+  display: flex; /* Enables Flexbox */
+  flex-direction: column; /* Aligns children vertically */
+  justify-content: center; /* Centers children horizontally in the container */
+  align-items: center; /* Centers children vertically in the container */
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+.heading h2{
+  font-weight: bold;
+}
+.heading a {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+}
+.image{
+  width: 400px;
+  height: 400px;
+}
