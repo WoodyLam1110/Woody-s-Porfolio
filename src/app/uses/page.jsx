@@ -5,20 +5,20 @@ import Footer from "@/components/Footer/Footer";
 function Uses() {
   const links = [
     {
-      title: "Home",
-      url: "/",
+      title: 'Home',
+      url: '/',
     },
     {
-      title: "About",
-      url: "/about",
+      title: 'About',
+      url: '/about',
     },
     {
-      title: "Projects",
-      url: "/projects",
+      title: 'Projects',
+      url: '/projects',
     },
     {
-      title: "Uses",
-      url: "/uses",
+      title: 'Uses',
+      url: '/uses',
     },
   ];
 
@@ -26,14 +26,14 @@ function Uses() {
   return (
     <div>
     <div>
-      <Navbar
-        options={[
-          { title: '/', label: 'Home' },
-          { path: '/about', label: 'About' },
-          { path: '/projects', label: 'Projects' },
-          { path: '/uses', label: 'Uses' },
-        ]}
-      />
+    <Navbar
+          options={[
+            { path: "/", label: "Home" },
+            { path: "/about", label: "About" },
+            { path: "/projects", label: "Projects" },
+            { path: "/uses", label: "Uses" },
+          ]}
+        />
     </div>
     <div>
 
